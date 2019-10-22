@@ -1,18 +1,29 @@
 .list {
 	display: grid;
 	margin: 50px auto;
-	grid-template-columns: repeat(5, minmax(100px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	grid-auto-rows: minmax(200px, 200px);
 }
 
 .list>div {
-	width: -webkit-fill-available;
+	cursor: pointer;
+	/* width: -webkit-fill-available; */
 }
 
-.list>div:nth-child(even) {
+.list>div:hover {
+	transform: scale(1.1);
+	box-shadow: 3px 3px 2px #9370db4f;
+	z-index: 1;
+}
+
+.list>div:nth-child(3n) {
 	background: pink;
 }
 
-.listdiv:nth-child(odd) {
+.list>div:nth-child(3n-2) {
+	background: lightgray;
+}
+
+.list>div:nth-child(3n-1) {
 	background: aliceblue;
 }

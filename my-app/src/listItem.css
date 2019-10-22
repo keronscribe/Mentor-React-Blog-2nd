@@ -3,4 +3,20 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	transition: cubic-bezier(0.39, 0.58, 0.57, 1) 0.5s;
+	position: relative;
+}
+
+.list-item-title {
+	font-size: 1.2rem;
+}
+
+.list-item-body {
+	color: gray;
+
+}
+
+.list-item-more {
+	position: absolute;
+	bottom: 20px;
 }
