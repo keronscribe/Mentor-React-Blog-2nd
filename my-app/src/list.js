@@ -1,7 +1,9 @@
 import React,{useEffect,useState}  from 'react';
 import ListItem from './listItem'
 import './list.css';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
+
 
 function List(){
 
@@ -17,13 +19,19 @@ function List(){
 	},[])
 	console.log(posts);
 
+	const handleClicked = (e) =>{
+		console.log(e.target.closest('.list-item').getAttribute('data-id'));
+	}
+
 	return(
 		<>
-			<h2>所有故事</h2>
-			<div className='list'>
-				{posts.map(({title,author,body},i) =>{
-					return (<ListItem title={title} author={author} body={body} key={i} />)	
-				})}
+			<h2>All the stories</h2>
+			<div className="list-wrapper">
+				<div className='list' onClick={handleClicked}>
+					{posts.map(({title,body,id},i) =>{
+						return (<Link to={`/posts/${id}`} className="list-item" data-id={id}><ListItem title={title} body={body} key={i} id={id} handleClicked={handleClicked}/></Link>)	
+					})}
+				</div>
 			</div>
 		</>
 	)
