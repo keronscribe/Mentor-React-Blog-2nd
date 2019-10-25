@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Header />
       <Route path="/"  exact component={Home} />
-      <Route path="/Mentor-React-sBlog-2nd/"  exact component={Home} />
+      <Route path="/Mentor-React-sBlog-2nd"  exact component={Home} />
       <Route path="/list" component={List} />
       <Route path="/about" component={About} />
       <Route path="/posts/:id" component={Post} />
