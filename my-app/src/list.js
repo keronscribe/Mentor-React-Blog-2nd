@@ -6,7 +6,6 @@ import axios from 'axios';
 
 
 function List(){
-
 	const [posts,setPosts] = useState([]);
 	const url = `https://qootest.com/posts`;
 	
@@ -17,19 +16,14 @@ function List(){
 			setPosts(data);
     })
 	},[])
-	console.log(posts);
-
-	const handleClicked = (e) =>{
-		console.log(e.target.closest('.list-item').getAttribute('data-id'));
-	}
 
 	return(
 		<>
 			<h2>All the stories</h2>
 			<div className="list-wrapper">
-				<div className='list' onClick={handleClicked}>
+				<div className='list'>
 					{posts.map(({title,body,id},i) =>{
-						return (<Link to={`/posts/${id}`} className="list-item" data-id={id}><ListItem title={title} body={body} key={i} id={id} handleClicked={handleClicked}/></Link>)	
+						return (<Link to={`/posts/${id}`} className="list-item" data-id={id}key={i} ><ListItem title={title} body={body} key={id} id={id} /></Link>)	
 					})}
 				</div>
 			</div>

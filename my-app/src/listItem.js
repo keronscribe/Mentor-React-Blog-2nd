@@ -1,11 +1,9 @@
 import React from 'react';
 import './listItem.css';
 
-function ListItem({title,body,handleClicked,id}){
+function ListItem({title,body}){
 	let shortenBody = body.substring(0,15);
-	// const hendleChick = (e) =>{
-	// 	handleClicked(e.target);
-	// }
+
 	return(
 	<div >
 		<div className='list-item-title'>{title}</div>

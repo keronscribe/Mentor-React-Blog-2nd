@@ -16,7 +16,6 @@ export default function Post(){
 	useEffect(()=>{
     axios.get(postUrl)
     .then(response => {
-			console.log(response);
 			setTitle(response.data.title);
 			setbody(response.data.body);
 			setAuthor(response.data.author);
