@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ff578eebec52db15f8817b64f992a148",
+    "revision": "037f727184a7bf6230b97d4b7533d155",
     "url": "/Mentor-React-Blog-2nd/index.html"
   },
   {
-    "revision": "685cf8fc7c7caf4cb484",
+    "revision": "42e61d5d4b5894a1c7bc",
     "url": "/Mentor-React-Blog-2nd/static/css/main.9361df8e.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Mentor-React-Blog-2nd/static/js/2.7235c220.chunk.js"
   },
   {
-    "revision": "685cf8fc7c7caf4cb484",
-    "url": "/Mentor-React-Blog-2nd/static/js/main.658fc6d6.chunk.js"
+    "revision": "42e61d5d4b5894a1c7bc",
+    "url": "/Mentor-React-Blog-2nd/static/js/main.3fb3aa08.chunk.js"
   },
   {
     "revision": "2a3cacc3fb6a62e73a93",
