@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Mentor-React-Blog-2nd/static/css/main.9361df8e.chunk.css",
+    "main.js": "/Mentor-React-Blog-2nd/static/js/main.0b3b2f01.chunk.js",
+    "main.js.map": "/Mentor-React-Blog-2nd/static/js/main.0b3b2f01.chunk.js.map",
+    "runtime-main.js": "/Mentor-React-Blog-2nd/static/js/runtime-main.441b33b9.js",
+    "runtime-main.js.map": "/Mentor-React-Blog-2nd/static/js/runtime-main.441b33b9.js.map",
+    "static/js/2.7235c220.chunk.js": "/Mentor-React-Blog-2nd/static/js/2.7235c220.chunk.js",
+    "static/js/2.7235c220.chunk.js.map": "/Mentor-React-Blog-2nd/static/js/2.7235c220.chunk.js.map",
+    "index.html": "/Mentor-React-Blog-2nd/index.html",
+    "precache-manifest.8abf23efb20512a769798fb40084208b.js": "/Mentor-React-Blog-2nd/precache-manifest.8abf23efb20512a769798fb40084208b.js",
+    "service-worker.js": "/Mentor-React-Blog-2nd/service-worker.js",
+    "static/css/main.9361df8e.chunk.css.map": "/Mentor-React-Blog-2nd/static/css/main.9361df8e.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.441b33b9.js",
+    "static/js/2.7235c220.chunk.js",
+    "static/css/main.9361df8e.chunk.css",
+    "static/js/main.0b3b2f01.chunk.js"
+  ]
+}
