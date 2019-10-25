@@ -2,7 +2,7 @@
 
 ## 連結
 
-（待補）
+[Blog](https://keronscribe.github.io/Mentor-React-Blog-2nd/)
 
 ## 介紹
 
